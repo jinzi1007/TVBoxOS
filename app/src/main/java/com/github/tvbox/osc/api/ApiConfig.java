@@ -335,7 +335,7 @@ public class ApiConfig {
             sourceBeanList.put(siteKey, sb);
         }
         if (sourceBeanList != null && sourceBeanList.size() > 0) {
-            String home = Hawk.get(HawkConfig.HOME_API, "");
+            String home = Hawk.get(HawkConfig.HOME_API, "http://tv.nxog.top/api.php?mz=xb&id=1&b=欧歌");
             SourceBean sh = getSource(home);
             if (sh == null)
                 setSourceBean(firstSite);
